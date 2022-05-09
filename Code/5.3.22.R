@@ -53,7 +53,7 @@ wplot <-
         title = "Average Price of Wind Power",
         subtitle = "Monthly, 2009 - 2020",
         caption=
-        "Source: Berkeley Lab’s 'Utility-Scale Solar, 2021 Edition' \n
+        "Source: Berkeley Lab's 'Utility-Scale Solar, 2021 Edition' \n
          #TidyTuesday
          Visualization by Noah Silver - @noahsilver12 ",
         x = NULL,
@@ -61,6 +61,7 @@ wplot <-
         fill = "Year"
     )
     
+ggsave("wplot.png", width = 7, height = 5)
 
 splot <- 
     solar_by_month %>% 
@@ -74,7 +75,7 @@ splot <-
         title = "Average Price of Solar Power",
         subtitle = "Monthly, 2009 - 2021",
         caption=
-            "Source: Berkeley Lab’s 'Utility-Scale Solar, 2021 Edition' \n
+            "Source: Berkeley Lab's 'Utility-Scale Solar, 2021 Edition' \n
          #TidyTuesday
          Visualization by Noah Silver - @noahsilver12 ",
         x = NULL,
@@ -83,19 +84,13 @@ splot <-
     )
 
 
-
-
-
-tweetmedia <- gridExtra::grid.arrange(wplot, splot, ncol = 2)
-
+ggsave("splot.png", width = 7, height = 5)
 
 
 
 
 
 post_tweet(
-    status = "A few days late, but fitting first #TidyTuesday topic! Excited to share my take on this week's data from @BerkeleyLab. \n 
-    Code: ",
-    media = tweetmedia,
-    media_alt_text = "Polar charts showing average price of wind power and average price of solar power monthly in $/MWh between 2009 and 2011. The average price of wind power peaked in August and the average price of solar power peaked in December.",
-)
+    status = "A few days late, but fitting first #TidyTuesday topic! Excited to share my take on this week's data from @BerkeleyLab.\nCode: https://github.com/noahsilver-are/TidyTuesday/blob/main/TTResponse/5.3.22.R",
+    media = c("wplot.png","splot.png"))
+
