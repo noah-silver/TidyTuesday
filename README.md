@@ -11,5 +11,5 @@ My code in response to weekly #TidyTuesday data analysis and visualization proje
 ### 05.10.2022 - New York Times Hardcover Fiction Bestsellers (Source: [Post45 Data](https://data.post45.org/our-data/))
 #### [Code](https://github.com/noahsilver-are/TidyTuesday/blob/master/Code/5.10.22.R)
 #### [Like on Twitter](https://twitter.com/NoahSilver12/status/1524215611693445123?s=20&t=ITtYWoKoTLsW9QwsI6GwvQ)
-![Sankey Diagram of Top 20 All-Time NYT Hardcover Fiction Bestsellers](https://github.com/noahsilver-are/TidyTuesday/blob/master/Plots/nytplot.png "Top 20 NYT Hardcover Fiction Bestsellers)
+![Sankey Diagram of Top 20 All-Time NYT Hardcover Fiction Bestsellers](https://github.com/noahsilver-are/TidyTuesday/blob/master/Plots/nytplot.png "Top 20 NYT Hardcover Fiction Bestsellers")
 
