@@ -41,4 +41,3 @@ nyt_titles %>%
     
 
 ggsave("nytplot.png", plot = last_plot())
-
