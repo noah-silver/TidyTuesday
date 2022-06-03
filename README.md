@@ -12,3 +12,7 @@ My code in response to weekly #TidyTuesday data analysis and visualization proje
 ### 05.24.2022 - Women's Rugby (Source: [Scrum Queens](https://scrumqueens.com/page/results-dashboard))
 #### [Code](https://github.com/noahsilver-are/TidyTuesday/blob/master/Code/5.24.22.R)
 #### [Like on Twitter](https://twitter.com/NoahSilver12/status/1529258658881749005?s=20&t=b5pgpnSmZucDxUslg7SdFg)
+
+### 05.31.2022 - Axios and Harris Poll
+#### [Code](https://github.com/noahsilver-are/TidyTuesday/blob/master/Code/5.31.22.R)
+#### [Like on Twitter](https://twitter.com/NoahSilver12/status/1531759119899807749?s=20&t=0CgNudM1aYLamoOVuy-dNA)
